@@ -1,0 +1,92 @@
+.box {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.score {
+    font-family: 'Press Start 2P', cursive;
+    color: #484848;
+    padding-top: 50px;
+    text-align: right;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/trex.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(img/cactus.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    animation: cactusMoving 1.5s infinite linear;
+}
+
+@keyframes cactusMoving {
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.4s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 110px;
+    }
+    50% {
+        top: 70px;
+    }
+    80% {
+        top: 110px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+.gameover {
+    display: none;
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    color: #484848;
+    font-style: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-family: 'Press Start 2P', cursive;
+    color: #484848;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-left: 200px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #484848;
+}
