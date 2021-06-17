@@ -32,6 +32,7 @@ setInterval(() => {
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
         box.style.display = 'none';
         gameover.style.display = 'block';
+        count = 0;
     }
 
 }, 10);
