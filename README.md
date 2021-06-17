@@ -4,22 +4,22 @@ This is a simple version of the Chrome Dino game. The game should stop if t-rex 
 
 **https://kateshukhto.github.io/dino-game/**
 
-##  Technologies Used
+## Technologies Used
 
- -   HTML5
--   CSS3
--   JavaScript
--   Git
--   GitHub
--   Google Fonts
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Google Fonts
 
-### This game used the following the following inbuilt JavaScript methods:
--   addEventListener()
--   querySelector()
+### The following methods are used in this game:
+- addEventListener()
+- querySelector()
 - setTimeout()
 - setInterval()
--  add()
--   remove()
+- add()
+- remove()
 - getComputedStyle()
 - parseInt()
 - textContent()
